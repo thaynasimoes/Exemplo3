@@ -1,49 +1,81 @@
-var nome = "fiap";
-let idade = 19;
-const sobrenome = "fiapinho";
+// var nome = "fiap";
+// let idade = 19;
+// const sobrenome = "fiapinho";
 
-console.log(nome);
-console.log(idade);
-console.log(sobrenome);
+// console.log(nome);
+// console.log(idade);
+// console.log(sobrenome);
 
-let nome2 = null;
-console.log(nome2);
+// let nome2 = null;
+// console.log(nome2);
 
-//tipos de variaveis
+// //tipos de variaveis
 
-let exemplo1 = 10;
-console.log(typeof exemplo1);
+// let exemplo1 = 10;
+// console.log(typeof exemplo1);
 
-let exemplo2 = "10";
-console.log(typeof exemplo2);
+// let exemplo2 = "10";
+// console.log(typeof exemplo2);
 
-let exemplo3 = true;
-console.log(typeof exemplo3);
+// let exemplo3 = true;
+// console.log(typeof exemplo3);
 
-let exemplo4 = {};
-console.log(typeof exemplo4);
+// let exemplo4 = {};
+// console.log(typeof exemplo4);
 
-let exemplo5 = [];
-console.log(typeof exemplo5);
+// let exemplo5 = [];
+// console.log(typeof exemplo5);
 
-//Conversoes
+// //Conversoes
 
-numFloat = 123.456;
-console.log(parseInt( numFloat));
+// numFloat = 123.456;
+// console.log(parseInt( numFloat));
 
-let numString = "123.456";
-console.log(parseFloat(numString));
+// let numString = "123.456";
+// console.log(parseFloat(numString));
 
-//Metodos
+// //Metodos
 
-//retorna o numero de caracteres
-let frase = "O mundo da tecnologia";
-console.log(frase.length);
+// //retorna o numero de caracteres
+// let frase = "O mundo da tecnologia";
+// console.log(frase.length);
 
-//retorna a posicao de um trecho do texto
-let texto = "A programacão indomavel e sustentavel";
-console.log(texto.indexOf("ão"));
+// //retorna a posicao de um trecho do texto
+// let texto = "A programacão indomavel e sustentavel";
+// console.log(texto.indexOf("ão"));
 
-//retorna o trecho de texto que esta entre as posicoes
-let info = "Processamento de ponta";
-console.log(info.slice(16,25));
+// //retorna o trecho de texto que esta entre as posicoes
+// let info = "Processamento de ponta";
+// console.log(info.slice(16,25));
+
+//operadores aritmeticos
+
+// const num1 = 10;
+// const num2 = 20;
+
+// console.log(num1 + num2);
+// console.log(num1 - num2);
+// console.log(num1 * num2);
+// console.log(num1 / num2);
+
+//operadores logicos
+
+const num3 = 10;
+const num4 = 20;
+
+console.log(num3 < num4);
+console.log(num3 > num4);
+console.log(num3 == num4);
+console.log(num3 < num4 && num3 > num4 );
+console.log(num3 < num4 || num3 > num4 );
+
+//operadores comparativos
+
+console.log(num3 == num4);
+console.log(num3 === num4);
+
+
+
+
+
+
